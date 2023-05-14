@@ -1,0 +1,21 @@
+<%- include ./common/head %>
+
+<link rel='stylesheet' href='/stylesheets/css/style.css' />
+
+<main class="ie-layout">
+  <div class="ie-contents-box">
+    <img class="logo" src="https://dream-cdn.beusable.net/home/images/logo-main.svg" alt="">
+    <img class="ie-image" src="https://dream-cdn.beusable.net/home/images/ie/ie-character.svg" alt="">
+
+    <% users.forEach(man =>{ %>
+      <p>이름 : <%= man.name %></p>
+      <p>이메일 : <%= man.email %></p>
+    <% }) %>
+
+  </div>
+</main>
+
+
+<script>
+console.log('hello');
+  </script>

@@ -1,0 +1,11 @@
+body{
+  background:green;
+}
+
+@mixin add{
+  display: block;
+}
+
+body{
+  @include add();
+}
